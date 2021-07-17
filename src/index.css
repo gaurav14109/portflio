@@ -1,5 +1,14 @@
+html, #root{
+  height:100%;
+}
+p, ul{
+  margin:0px;
+  padding:0px;
+}
 body {
+  height:100%;
   margin: 0;
+ 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +19,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.profile-link {
+
+  font-family: Avenira;
+  color:black;
+  font-size: 22px;
+  font-weight:800px;
+  padding: 5px 0;
+}
+
+.profile-link:hover{
+  margin:0px 60px 0px 60px;
+  padding-bottom:3px;
+  color:aqua;
+  border-bottom: 2px solid lightblue;
+  cursor:pointer;
+
+}
+.info p  {
+ 
+  font-size: 11px;
+ font-weight: bold;
+}
+
+@media screen and (max-width: 850px) and (min-width: 310px) {
+  .info p  {
+     font-size: 7px;
+
+  }
+
+  .profile-link{
+    font-size:12px;
+  }
+  .profile-link:hover{
+    margin:0px 8px 0px 8px;
+    padding-bottom:3px;
+    color:aqua;
+    border-bottom: 2px solid lightblue;
+    cursor:pointer;
+  
+  }
+      
+}
+@media screen and (max-width: 1300px) and (min-width: 850px) {
+  .profile-link{
+    font-size:14px;
+  }
+  .profile-link:hover{
+    margin:0px 6px 0px 6px;  
+  }
+      
 }
