@@ -102,6 +102,9 @@ code {
   .main h2{
     font-size:18px;
   }
+  .main h4{
+    font-size:14px;
+  }
   .main p, li,span{
     font-size:12px;
   }
