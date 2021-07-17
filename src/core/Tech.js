@@ -23,7 +23,7 @@ const Tech = () => (
                 <div className='col-md-3'>
                     <div
                         style={{
-                            margin: '0px 10px 15px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -42,7 +42,7 @@ const Tech = () => (
 
                     <div
                         style={{
-                            margin: '0px 10px 0px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -63,7 +63,7 @@ const Tech = () => (
                 <div className='col-md-3'>
                     <div
                         style={{
-                            margin: '0px 10px 15px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -82,7 +82,7 @@ const Tech = () => (
 
                     <div
                         style={{
-                            margin: '0px 10px 0px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -96,14 +96,14 @@ const Tech = () => (
                             <span
                                 style={{
                                     marginLeft: '15px'
-                                }}>Core Java</span>
+                                }}>Java</span>
                         </div>
                     </div>
                 </div>
                 <div className='col-md-3'>
                     <div
                         style={{
-                            margin: '0px 10px 15px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -122,7 +122,7 @@ const Tech = () => (
 
                     <div
                         style={{
-                            margin: '0px 10px 0px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -143,7 +143,7 @@ const Tech = () => (
                 <div className='col-md-3'>
                     <div
                         style={{
-                            margin: '0px 10px 15px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -162,7 +162,7 @@ const Tech = () => (
 
                     <div
                         style={{
-                            margin: '0px 10px 0px 0px',
+                            margin: '0px 10px 10px 0px',
                             borderRadius: '15px',
                             border: '0.5px solid gray'
                         }}>
@@ -184,11 +184,7 @@ const Tech = () => (
         </section>
 
         <div>
-            <h3
-                style={{
-                    marginLeft: '50px',
-                    paddingTop: '80px'
-                }}>TOOLS</h3>
+            <h3 className = 'tools'>TOOLS</h3>
             <section
                 className='basic-info jumbotron'
                 style={{

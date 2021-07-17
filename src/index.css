@@ -43,6 +43,23 @@ code {
  font-weight: bold;
 }
 
+.SideBarMenu{
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-color: #F0F0F0;
+}
+.main{
+
+    width: 80%;
+    float: left;
+
+}
+.tools{
+    margin-left: 50px;
+    padding-top: 80px;
+
+}
 @media screen and (max-width: 850px) and (min-width: 310px) {
   .info p  {
      font-size: 7px;
@@ -70,4 +87,49 @@ code {
     margin:0px 6px 0px 6px;  
   }
       
+}
+
+@media screen and (max-width: 593px) and (min-width: 390px) {
+  .SideBarMenu{
+    width: 30%;
+  }
+  .main{
+        width: 70%;
+    }
+  .main h3{
+    font-size:16px;
+  }
+  .main h2{
+    font-size:18px;
+  }
+  .main p, li,span{
+    font-size:12px;
+  }
+  .tools{
+    padding-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 594px) {
+
+  .tools{
+    padding-top: 10px;
+  }
+  .main h3{
+    font-size:16px;
+  }
+  .main h2{
+    font-size:18px;
+  }
+  .main p, li,span{
+    font-size:12px;
+  }
+}
+
+@media screen and (max-width: 976px) {
+
+  .main p, li,span{
+    font-size:12px;
+  }
 }

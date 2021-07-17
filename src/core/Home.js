@@ -9,27 +9,14 @@ const Home = () => {
     const [display, setDisplay] = useState('INTRO')
 
     const displaySection = name => {
-
         setDisplay(name)
-        console.log(display)
-
     }
     return <React.Fragment>
         <div
-            className='SideBarMenu'
-            style={{
-                width: '20%',
-                height: '100%',
-                float: 'left',
-                backgroundColor: '#F0F0F0'
-            }}>
+            className='SideBarMenu'>
             <SidebarMenu displaySection={displaySection}/>
         </div>
-        <div
-            style={{
-                width: '80%',
-                float: 'left'
-            }}>
+        <div className = 'main'>
             {
                 display === 'INTRO' && <Intro /> }
                  {
