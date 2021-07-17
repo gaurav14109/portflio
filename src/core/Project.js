@@ -13,11 +13,7 @@ const Project = ()=>(
         }}>PROJECTS</h3>
 
     <section
-        className='basic-info jumbotron'
-        style={{
-            margin: '0px 50px',
-            padding: '32px'
-        }}>
+        className='basic-info jumbotron'>
         <div
             className='Retail-Rtgs'
             style={{

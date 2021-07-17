@@ -14,11 +14,7 @@ const Exp = ()=>(
                             }}>EXPERIENCE</h3>
 
                         <section
-                            className='basic-info jumbotron'
-                            style={{
-                                margin: '0px 50px',
-                                padding: '32px'
-                            }}>
+                            className='basic-info jumbotron'>
 
                             <div>
                                 <h4>
