@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 const Project = ()=>(
     <div
     className='intro'
@@ -30,6 +31,16 @@ const Project = ()=>(
             <h4>Table Tennis Robot</h4>
             <p>Engineering Project: Developed Table Tennis Robot controlled with Android APK
                 for Final Year Project</p>
+        </div>
+        <div
+            className='ecommerce'
+            style={{
+                padding: '10px 0px 10px 0px'
+            }}>
+            <h4>Ecommerce App</h4>
+            <p>Developed a Basic ecommerce App  using react and Nodejs. 
+                Link <Link to={{ pathname: "http://165.232.179.49/" }} target="_blank" >/165.232.179.49/</Link>
+            </p>
         </div>
 
     </section>
