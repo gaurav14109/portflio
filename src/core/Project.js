@@ -38,7 +38,7 @@ const Project = ()=>(
                 padding: '10px 0px 10px 0px'
             }}>
             <h4>Ecommerce App</h4>
-            <p>Developed a Basic ecommerce App  using react and Nodejs. 
+            <p>Developed Basic ecommerce App  using react and Nodejs. 
                 Link <Link to={{ pathname: "http://165.232.179.49/" }} target="_blank" >/165.232.179.49/</Link>
             </p>
         </div>
